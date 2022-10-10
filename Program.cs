@@ -11,7 +11,7 @@ Console.WriteLine(num2);
 
 /*
 int number = new Random().Next(10, 100000);
-Console.WriteLine(number);
+Console.WriteLine($"Само число {number}");
 if (number < 100)
 {
     Console.WriteLine($"В числе {number} нет, третьей цифры");
@@ -20,17 +20,17 @@ if (number < 100)
 else if (number > 99 && number < 1000)
 {
     int numb1 = number % 10;
-    Console.WriteLine($"третья цифра {numb1}");
+    Console.WriteLine($"В числе {number} третья цифра {numb1}");
 }
 else if (number > 999 && number < 10000)
 {
     int numb2 = (number % 100) / 10;
-    Console.WriteLine($"третья цифра {numb2}");
+    Console.WriteLine($"В числе {number} третья цифра {numb2}");
 }
 else if (number > 9999 && number < 100000)
 {
     int numb3 = (number % 1000) / 100;
-    Console.WriteLine($"третья цифра {numb3}");
+    Console.WriteLine($"В числе {number} третья цифра {numb3}");
 }
 */
 
