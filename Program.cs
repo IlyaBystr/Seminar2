@@ -8,6 +8,7 @@ Console.WriteLine(number);
 Console.WriteLine(num1);
 Console.WriteLine(num2);
 */
+
 /*
 int number = new Random().Next(10, 100000);
 Console.WriteLine(number);
@@ -32,3 +33,21 @@ else if (number > 9999 && number < 100000)
     Console.WriteLine($"третья цифра {numb3}");
 }
 */
+
+Console.WriteLine("Введите число недели");
+int number= int.Parse (Console.ReadLine()!);
+if(number>=1 && number<=7)
+{
+    if(number>=6)
+    {
+        Console.WriteLine($"Число {number} являеться выходным днём");
+    } 
+    else
+    {
+        Console.WriteLine($"Число {number} не являеться выходным днём");
+    }  
+}
+else
+{
+    Console.WriteLine($"Число {number} не являеться днём недели");
+}
